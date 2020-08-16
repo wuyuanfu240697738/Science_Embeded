@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F405xx</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Main;..\..\..\My_Drivers\Src;..\..\..\My_Drivers\Drive;..\..\..\Mid_Drivers\Micrium\Software\uCOS-III\Source;..\..\..\Mid_Drivers\Micrium\Software\uCOS-III\Ports\ARM-Cortex-M\ARMv7-M\ARM;..\..\..\Mid_Drivers\Micrium\Software\uCOS-Hook;..\..\..\Mid_Drivers\Micrium\Software\uC-CPU;..\..\..\Mid_Drivers\Micrium\Software\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM;..\..\..\ST_Drivers\ST32F4xx_HAL_Driver\Inc\Legacy;..\..\..\ST_Drivers\ST32F4xx_HAL_Driver\Inc;..\..\..\ST_Drivers\ST32F4xx_HAL_CMSIS\Include;..\..\..\ST_Drivers\ST32F4xx_HAL_CMSIS\Device\ST\STM32F4xx\Include</IncludePath>
+              <IncludePath>..\Main;..\..\..\My_Drivers\Src;..\..\..\My_Drivers\Drive;..\..\..\Mid_Drivers\Micrium\Software\uCOS-III\Source;..\..\..\Mid_Drivers\Micrium\Software\uCOS-III\Ports\ARM-Cortex-M\ARMv7-M\ARM;..\..\..\Mid_Drivers\Micrium\Software\uCOS-Hook;..\..\..\Mid_Drivers\Micrium\Software\uC-CPU;..\..\..\Mid_Drivers\Micrium\Software\uC-CPU\ARM-Cortex-M\ARMv7-M\ARM;..\..\..\ST_Drivers\ST32F4xx_HAL_Driver\Inc\Legacy;..\..\..\ST_Drivers\ST32F4xx_HAL_Driver\Inc;..\..\..\ST_Drivers\ST32F4xx_HAL_CMSIS\Include;..\..\..\ST_Drivers\ST32F4xx_HAL_CMSIS\Device\ST\STM32F4xx\Include;..\..\..\My_Drivers\wMB\mb</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -657,6 +657,31 @@
               <FileName>stm32f4xx_hal_uart.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\ST_Drivers\ST32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>wModbus</GroupName>
+          <Files>
+            <File>
+              <FileName>mb.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\My_Drivers\wMB\mb\mb.c</FilePath>
+            </File>
+            <File>
+              <FileName>mbevent.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\My_Drivers\wMB\mb\mbevent.c</FilePath>
+            </File>
+            <File>
+              <FileName>smb.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\My_Drivers\wMB\mb\smb.c</FilePath>
+            </File>
+            <File>
+              <FileName>smbbuf.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\My_Drivers\wMB\mb\smbbuf.c</FilePath>
             </File>
           </Files>
         </Group>
